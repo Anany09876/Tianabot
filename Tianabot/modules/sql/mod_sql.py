@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, BigInteger
 
-from Tianabot.modules.sql import BASE, SESSION
+from FallenRobot.modules.sql import BASE, SESSION
 
 
 class Mods(BASE):
