@@ -1,14 +1,14 @@
 import html
-import Tianabot.modules.sql.mod_sql as sql
-from Tianabot.modules.disable import DisableAbleCommandHandler
-from Tianabot import dispatcher, DRAGONS
-from Tianabot.modules.helper_funcs.extraction import extract_user
+import FallenRobot.modules.sql.mod_sql as sql
+from FallenRobot.modules.disable import DisableAbleCommandHandler
+from FallenRobot import dispatcher, DRAGONS
+from FallenRobot.modules.helper_funcs.extraction import extract_user
 from telegram.ext import CallbackContext, run_async, CallbackQueryHandler
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Update
 from telegram.utils.helpers import mention_html
 from telegram.error import BadRequest
-from Tianabot.modules.helper_funcs.chat_status import user_admin
-from Tianabot.modules.log_channel import loggable
+from FallenRobot.modules.helper_funcs.chat_status import user_admin
+from FallenRobot.modules.log_channel import loggable
 
 @run_async
 @loggable
